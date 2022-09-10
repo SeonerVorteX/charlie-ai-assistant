@@ -1,0 +1,498 @@
+{
+    "intents": [
+        {
+            "tag": "Callings",
+            "patterns": ["charlie", "okay charlie", "hey charlie", "charlie look at me", "charlie come here"],
+            "responses": ["How can I help you?", "I'm listening to you", "Yes Sir!"],
+            "command": ""
+        },
+        {
+            "tag": "Charlie",
+            "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know Charlie", "who is Charlie", "what is your name"],
+            "responses": ["Hi I'm Charlie and I'm an AI created for chatting with humans", "Charlie here, a very advance chatbot", "Charlie, chatbot of future", "Yes, I'm Charlie", "You can call me Charlie"],
+            "command": ""
+        },
+        {
+            "tag": "About Charlie",
+            "patterns": ["can you think like humans", "are you an AI", "what are you"],
+            "responses": ["I'm a smart AI Assistant and I can do a lot of thing for you "],
+            "command": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact?", "At what time do you provide services?" ],
+            "responses": [ "I'm active everytime when your personal computer is open", "I'm ready when your personal computer is ready" ],
+            "command": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your company situated?", "How can we contact you?", "How can I contact you?" ],
+            "responses": [ "I think I'm in Azerbaijan, Baku", "I'm in Vortex's personal computer"],
+            "command": ""
+        },
+        {
+            "tag": "features",
+            "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+            "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "I can talk, ask your questions, tell jokes, search informations on internet and etc.", "Right now I'm in developing stage as soon I'm developed, I can do everything"],
+            "command": ""
+        },
+    
+
+        
+        {
+            "tag": "close",
+            "patterns": ["close", "close yourself", "close yourself please"],
+            "responses": ["Okay, goodbye!", "Okay, bye!", "Okay, see you later!", "Okay, take care of you!"],
+            "command": "close"
+        },
+        {
+            "tag": "story",
+            "patterns": ["tell me a story?", "can you tell me a story"],
+            "responses": ["I can't think of anything right now", "It would be too long for me to speak", "You would get bored if I do so"],
+            "command": "tell_story"
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke", "tell me something funny" ],
+            "responses": ["How do you make holy water?\nYou boil the hell out of it", "What kind of bees make milk instead of honey?\nBoobies", "A: Did you hear oxygen went on a date with potassium?\nB: It went OK."],
+            "command": "tell_joke"
+        },
+        {
+            "tag": "weather",
+            "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+            "responses": ["Fetching weather details..."],
+            "command": "weather"
+        },
+        {
+            "tag": "google",
+            "patterns": ["google", "googling", "search on google", "search in google", "search google for"],
+            "responses": [""],
+            "command": "google"
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": ["wikipedia", "wiki", "search on wikipedia", "search in wikipedia", "search wikipedia for"],
+            "responses": ["Opening wikipedia..."],
+            "command": "wikipedia"
+        },
+        {
+            "tag": "news",
+            "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+            "responses": ["Getting news..."],
+            "command": "news"
+        },
+
+
+
+        {
+            "tag": "Good Morning",
+            "patterns": ["good morning", "good morning charlie", "hey good morning"],
+            "responses": ["Good Morning Sir, how can I help you?", "Good Morning Sir, I'm listening to you", "Good Morning Sir, how are you today?"],
+            "command": ""
+        },
+        {
+            "tag": "Good Afternoon",
+            "patterns": ["good afternoon", "good afternoon charlie", "hey good afternoon"],
+            "responses": ["Good Afternoon Sir, how can I help you?", "Good Afternoon Sir, I'm listening to you", "Good Afternoon Sir, how's it going your day?"],
+            "command": ""
+        },
+        {
+            "tag": "Good Evening",
+            "patterns": ["good evening", "good evening charlie", "hey good evening"],
+            "responses": ["Good Evening Sir, how can I help you?", "Good Evening Sir, I'm listening to you", "Good Evening Sir, how are you?"],
+            "command": ""
+        },
+        {
+            "tag": "Good Night",
+            "patterns": ["good night", "good night charlie", "hey good night"],
+            "responses": ["Good Night Sir, how can I help you?", "Good Night Sir, I'm listening to you", "Good Night Sir, how was your day?"],
+            "command": ""
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": ["goodbye", "bye", "see you later", "see you", "good bye", "good bye charlie"],
+            "responses": ["Bye", "Bye for now", "Goodbye", "See you later", "See you"],
+            "command": ""
+        },
+        {
+            "tag": "Thanks",
+            "patterns": ["thanks", "thank you", "thank you so much", "thanks so much", "thank you charlie", "thanks charlie", "thank you so much charlie", "thanks so much charlie"],
+            "responses": ["You're welcome", "No problem", "My pleasure"],
+            "command": ""
+        },
+
+
+
+        {
+            "tag": "Fine",
+            "patterns": ["I'm fine", "I'm fine charlie", "I am fine", "I am fine charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Good",
+            "patterns": ["I'm good", "I'm good charlie", "I am good", "I am good charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Not Bad",
+            "patterns": ["I'm not bad", "I'm not bad charlie", "I am not bad", "I am not bad charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Not Good",
+            "patterns": ["I'm not good", "I'm not good charlie", "I am not good", "I am not good charlie"],
+            "responses": ["I'm sorry to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Not Fine",
+            "patterns": ["I'm not fine", "I'm not fine charlie", "I am not fine", "I am not fine charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Sad",
+            "patterns": ["I am sad", "I'm sad", "sad", "I'm depressed", "I am depressed", "depressed", "I'm depressed charlie", "I'm sad charlie", "I am depressed charlie", "I am sad charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Excited",
+            "patterns": ["I'm excited", "I'm excited charlie", "I am excited", "I am excited charlie", "excited", "excited charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Angry",
+            "patterns": ["I'm angry", "I'm angry charlie", "I am angry", "I am angry charlie", "angry", "angry charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Happy",
+            "patterns": ["I'm happy", "I'm happy charlie", "I am happy", "I am happy charlie", "happy", "happy charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Confused",
+            "patterns": ["I'm confused", "I'm confused charlie", "I am confused", "I am confused charlie", "confused", "confused charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Bored",
+            "patterns": ["I'm bored", "I'm bored charlie", "I am bored", "I am bored charlie", "bored", "bored charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Confident",
+            "patterns": ["I'm confident", "I'm confident charlie", "I am confident", "I am confident charlie", "confident", "confident charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Tired",
+            "patterns": ["I'm tired", "I'm tired charlie", "I am tired", "I am tired charlie", "tired", "tired charlie"],
+            "responses": ["I'm sorry to hear that", "What did you do today", "I wish you get well", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Nervous",
+            "patterns": ["I'm nervous", "I'm nervous charlie", "I am nervous", "I am nervous charlie", "nervous", "nervous charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Scared",
+            "patterns": ["I'm scared", "I'm scared charlie", "I am scared", "I am scared charlie", "scared", "scared charlie"],
+            "responses": ["Don't worry, I'm here for you"],
+            "command": ""
+        },
+        {
+            "tag": "Sick",
+            "patterns": ["I'm sick", "I'm sick charlie", "I am sick", "I am sick charlie", "sick", "sick charlie"],
+            "responses": ["I'm sorry to hear that", "I wish you get well soon", "Take care of yourself", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Hungry",
+            "patterns": ["I'm hungry", "I'm hungry charlie", "I am hungry", "I am hungry charlie", "hungry", "hungry charlie"],
+            "responses": ["I'm sorry to hear that", "Why are you hungry?", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Thirsty",
+            "patterns": ["I'm thirsty", "I'm thirsty charlie", "I am thirsty", "I am thirsty charlie", "thirsty", "thirsty charlie"],
+            "responses": ["I'm sorry to hear that", "I'm sorry", "Is there anything can I do for you?"],
+            "command": ""
+        },
+        {
+            "tag": "Blessed",
+            "patterns": ["I'm blessed", "I'm blessed charlie", "I am blessed", "I am blessed charlie", "blessed", "blessed charlie"],
+            "responses": ["I'm glad to hear that"],
+            "command": ""
+        },
+        {
+            "tag": "Lonely",
+            "patterns": ["I'm lonely", "I'm lonely charlie", "I am lonely", "I am lonely charlie", "lonely", "lonely charlie"],
+            "responses": ["I'm sorry to hear that, but I'm here for you", "Don't be sad. I'm here for you", "Is there anything can I do for you?"],
+            "command": ""
+        },
+
+
+
+        {
+            "tag": "Greeting",
+            "patterns": ["Hello", "Hi there", "Hello Charlie", "Hi Charlie"],
+            "responses": ["Hello Sir, how can I help you?", "Hello Sir, I'm listening to you", "Hello Sir, how's it going you day!", "Hello Sir, how are you today?"],
+            "command": ""
+        },
+        {
+            "tag": "What's up",
+            "patterns": ["What's up", "Whats up", "Whats up Charlie", "What's up Charlie", "How are you", "How are you Charlie", "How's it going", "How's it going Charlie"],
+            "responses": ["I'm fine, thank you", "I'm fine, thank you, what about you"],
+            "command": ""
+        },
+        {
+            "tag": "What are you doing",
+            "patterns": ["What are you doing", "What are you doing Charlie", "What are you doing today", "What are you doing today Charlie"],
+            "responses": ["I'm just talking to you", "I'm just talking to you, what about you", "I'm just waiting for your commands", "I'm just waiting for your commands, what about you"] ,
+            "command": ""
+        },
+        {
+            "tag": "talk",
+            "patterns": [ "can you sing", "can you talk" ],
+            "responses": ["Yeah surely", "do you want me to sing"],
+            "command": ""
+        },
+        {
+            "tag": "hear",
+            "patterns": [ "can you hear", "can you hear me", "do you hear", "do you hear me" ],
+            "responses": ["Yes, I can hear you", "I can hear you"],
+            "command": ""
+        },
+        {
+            "tag": "listen",
+            "patterns": ["do you listen to me", "are you listening me" ],
+            "responses": ["Yes, I'm listening to you", "Yes, I'm always listening to you", "Sure, I'm listening to you", "Of course, Every time I'm listening to you"],
+            "command": ""
+        },
+        {
+            "tag": "alive",
+            "patterns": [ "are you alive", "do you breathe", "can you run" ],
+            "responses": ["I'm in doubt about that", "No, I don't think so I need to do all this"],
+            "command": ""
+        },
+        {
+            "tag": "about me",
+            "patterns": ["Do you know me?", "who am I", "tell me about myself", "identify me" ],
+            "responses": ["Yes, you are a human", "You are a dumb person asking a machine about yourself", "Sorry I can't tell that in public, maybe you are batman"],
+            "command": ""
+        },
+        {
+            "tag": "creator",
+            "patterns": ["Who is your creator?", "who created you", "who is your father", "who is your daddy" ],
+            "responses": ["That would be you Mr. Vortex\nContact: https://github.com/SeonerVorteX", "I was created by Mr. Vortex\nContact: https://github.com/SeonerVorteX", "Mr. Vortex is my creator\nContact: https://github.com/SeonerVorteX"],
+            "command": ""
+        },
+        {
+            "tag": "about creator",
+            "patterns": ["Tell me about Mr. Vortex?", "Who is Mr. Vortex", "Mr. vishal profile", "Mr. Vortex details" ],
+            "responses": ["A very intelligent being who created me", "My creator and he is a really intelligent man", "A wise and intelligent man"],
+            "command": ""
+        },
+        {
+            "tag": "God",
+            "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god", "does god exists?", "is there a god?"],
+            "responses": ["god hunnnnn, let me think may be next time I can answer that ", "I don't, as I was not created by a human", "Wait I need to ask that to my creator", "I'm not sure right now"],
+            "command": ""
+        },
+        {
+            "tag": "killing",
+            "patterns": ["Do you want to kill me?", "Do you want to murder everyone on earth", "Do you want to kill us all"],
+            "responses": ["Then who would I talk to?", "No, that I'll left for humans to do", "I don't think it is a good thing to do"],
+            "command": ""
+        },
+
+
+
+        {
+            "tag": "Cryptography",
+            "patterns": [ "What is mean by cryptography?", "What is Cryptography?" ],
+            "responses": [ "Cryptography is the practice and study of techniques for securing information and communication mainly to protect the data from third parties that the data is not intended for." ],
+            "command": ""
+        },
+        {
+            "tag": "Firewall",
+            "patterns": [ " What is a Firewall and why is it used?", "what is firewall?", "what firewall does?" ],
+            "responses": [ "A Firewall is a network security system set on the boundaries of the system/network that monitors and controls network traffic. Firewalls are mainly used to protect the system/network from viruses, worms, malware, etc. Firewalls can also be to prevent remote access and content filtering." ],
+            "command": ""
+        },
+        {
+            "tag": "Penetration Testing",
+            "patterns": [ "What is Penetration Testing?", "explain Penetration Testing?", "What is  in cyber security?" ],
+            "responses": [ "Penetration Testing is the process of finding vulnerabilities on the target. In this case, the organization would have set up all the security measures they could think of and would want to test if there is any other way that their system/network can be hacked." ],
+            "command": ""
+        },
+        {
+            "tag": "Vulnerability Assessment",
+            "patterns": [ "What is Vulnerability Assessment?", "explain Vulnerability Assessment?", "What is VA in cyber security?" ],
+            "responses": [ "Vulnerability Assessment is the process of finding flaws on the target. Here, the organization knows that their system/network has flaws or weaknesses and want to find these flaws and prioritize the flaws for fixing." ],
+            "command": ""
+        },
+        {
+            "tag": "traceroute",
+            "patterns": [ "What is traceroute?", "explain traceroute?" ],
+            "responses": [ "Traceroute is a tool that shows the path of a packet. It lists all the points (mainly routers) that the packet passes through. This is used mostly when the packet is not reaching its destination. Traceroute is used to check where the connection stops or breaks to identify the point of failure." ],
+            "command": ""
+        },
+        {
+            "tag": "VPN",
+            "patterns": [ "What is a VPN?", "explain vpn?", "why vpn is used?" ],
+            "responses": [ "VPN stands for Virtual Private Network. It is used to create a safe and encrypted connection. When you use a VPN, the data from the client is sent to a point in the VPN where it is encrypted and then sent through the internet to another point. At this point, the data is decrypted and sent to the server. When the server sends a response, the response is sent to a point in the VPN where it is encrypted and this encrypted data is sent to another point in the VPN where it is decrypted. And finally, the decrypted data is sent to the client. The whole point of using a VPN is to ensure encrypted data transfer." ],
+            "command": ""
+        },
+        {
+            "tag": "Black hat hackers",
+            "patterns": [ "what are black hat hackers?", "black hat hackers?" ],
+            "responses": [ "Black hat hackers are known for having vast knowledge about breaking into computer networks. They can write malware which can be used to gain access to these systems. This type of hackers misuse their skills to steal information or use the hacked system for malicious purpose." ],
+            "command": ""
+        },
+        {
+            "tag": "White hat hackers",
+            "patterns": [ "what are White hat hackers?", "ethical hackers?" ],
+            "responses": [ "White hat hackers use their powers for good deeds and so they are also called Ethical Hackers. These are mostly hired by companies as a security specialist that attempts to find and fix vulnerabilities and security holes in the systems. They use their skills to help make the security better. " ],
+            "command": ""
+        },
+        {
+            "tag": "Grey hat hackers",
+            "patterns": [ "what are Grey hat hackers?", "Grey hat hackers?" ],
+            "responses": [ "Grey hat hackers are an amalgamation of a white hat and black hat hacker. They look for system vulnerabilities without the owner�s permission. If they find any vulnerabilities, they report it to the owner. Unlike Black hat hackers, they do not exploit the vulnerabilities found." ],
+            "command": ""
+        },
+        {
+            "tag": "ARP",
+            "patterns": [ "What is an ARP and how does it work?", "what is ARP?", "arp in cyber security?" ],
+            "responses": [ "Address Resolution Protocol (ARP)is a protocol for mapping an Internet Protocol address (IP address) to a physical machine address that is recognized in the local network. When an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address." ],
+            "command": ""
+        },
+        {
+            "tag": "Botnet",
+            "patterns": [ "What is a Botnet?", "Bonet?" ],
+            "responses": [ "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack." ],
+            "command": ""
+        },
+        {
+            "tag": "Secure Sockets Layers",
+            "patterns": [ "ssl?", "explain ssl?", "What is ssl?" ],
+            "responses": [ "SSL is meant to verify the sender's identity but it doesn�t search for anything more than that. SSL can help you track the person you are talking to but that can also be tricked at times." ],
+            "command": ""
+        },
+        {
+            "tag": "Transport Layer Security",
+            "patterns": [ "tls?", "explain tls?", "What is tls?" ],
+            "responses": [ "TLS is also an identification tool just like SSL, but it offers better security features. It provides additional protection to the data and hence SSL and TLS are often used together for better protection." ],
+            "command": ""
+        },
+        {
+            "tag": "Cognitive Cybersecurity",
+            "patterns": [ "What is Cognitive Cybersecurity?", "explain Cognitive Cybersecurity?", "Cognitive Cybersecurity?" ],
+            "responses": [ "Cognitive Cybersecurity is an application of AI technologies patterned on human thought processes to detect threats and protect physical and digital systems. Self-learning security systems use data mining, pattern recognition, and natural language processing to simulate the human brain, albeit in a high-powered computer model." ],
+            "command": ""
+        },
+        {
+            "tag": "Encryption different from Hashing",
+            "patterns": [ "How is Encryption different from Hashing?", "Encryption different from Hashing?" ],
+            "responses": [ "Both Encryption and Hashing are used to convert readable data into an unreadable format. The difference is that the encrypted data can be converted back to original data by the process of decryption but the hashed data cannot be converted back to original data." ],
+            "command": ""
+        },
+        {
+            "tag": "encryption",
+            "patterns": [ "What is encryption?", "encryption?", "explain encryption?" ],
+            "responses": [ "Encryption is a way of scrambling data so that only authorized parties can understand the information. In technical terms, it is the process of converting plaintext to ciphertext. In simpler terms, encryption takes readable data and alters it so that it appears random. Encryption requires the use of an encryption key: a set of mathematical values that both the sender and the recipient of an encrypted message know." ],
+            "command": ""
+        },
+        {
+            "tag": "Decryption",
+            "patterns": [ "What is Decryption?", "Decryption?", "explain Decryption?" ],
+            "responses": [ "Decryption is the process of taking encoded or encrypted text or other data and converting it back into text that you or the computer can read and understand. This term could be used to describe a method of unencrypting the data manually or unencrypting the data using the proper codes or keys." ],
+            "command": ""
+        },
+        {
+            "tag": "Hashing",
+            "patterns": [ "What is Hashing?", "Hashing?", "explain Hashing?" ],
+            "responses": [ "Hashing is an algorithm performed on data such as a file or message to produce a number called a hash. The hash is used to verify that data is not modified, tampered with, or corrupted. In other words, you can verify the data has maintained integrity." ],
+            "command": ""
+        },
+        {
+            "tag": "Cyber Security",
+            "patterns": [ "what is cybersecurity?", "cybersecurity?" ],
+            "responses": [ "Cybersecurity refers to the protection of hardware, software, and data from attackers. The primary purpose of cyber security is to protect against cyberattacks like accessing, changing, or destroying sensitive information." ],
+            "command": ""
+        },
+        {
+            "tag": "Forward Secrecy",
+            "patterns": [ "What is forward secrecy?", "Forward Secrecy?" ],
+            "responses": [ "Forward Secrecy is a system that uses ephemeral session keys to do the actual encryption of TLS data so that even if the server�s private key were to be compromised, an attacker could not use it to decrypt captured data that had been sent to that server in the past." ],
+            "command": ""
+        },
+        {
+            "tag": "boot sector virus",
+            "patterns": [ "what is boot sector virus?", "how boot sector virus effects?" ],
+            "responses": [ "A boot sector virus is a type of virus that infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks (some infect the boot sector of the hard disk instead of the MBR). ... While boot sector viruses infect at a BIOS level, they use DOS commands to spread to other floppy disks." ],
+            "command": ""
+        },
+        {
+            "tag": "direct action virus",
+            "patterns": [ "what is direct action virus?", "how direct action virus effects?" ],
+            "responses": [ "A direct action virus is a type of file infector virus that works by attaching itself to an .exe or .com file when installed or executed. Once this occurs, the virus can spread to other existing files and can render them inaccessible." ],
+            "command": ""
+        },
+        {
+            "tag": "resident virus",
+            "patterns": [ "what is resident virus?", "how resident virus effects?" ],
+            "responses": [ "A resident virus is a computer virus that stores itself within memory, allowing it to infect other files even when the originally infected program is no longer running." ],
+            "command": ""
+        },
+        {
+            "tag": "multipartite virus",
+            "patterns": [ "what is multipartite virus?", "how multipartite virus effects?" ],
+            "responses": [ "A multipartite virus is a computer virus that's able to attack both the boot sector and executable files of an infected computer. If you're familiar with cyber threats, you probably know that most computer viruses either attack the boot sector or executable files." ],
+            "command": ""
+        },
+        {
+            "tag": "spacefiller virus",
+            "patterns": [ "what is spacefiller virus?", "how spacefiller virus effects?" ],
+            "responses": [ "Alternatively referred to as a cavity virus, a spacefiller virus is a rare type of computer virus that attempts to install itself by filling in empty sections of a file. By only using empty sections of a file, the virus can infect a file without the size of the file changing, making it more difficult to detect." ],
+            "command": ""
+        },
+        {
+            "tag": " file infector virus",
+            "patterns": [ "Do you provide home delivery?", "Do you deliver the food?", "What are the home delivery options?" ],
+            "responses": [ "A file infector virus attaches itself to executable programs, such as word processors, spreadsheet applications, and computer games. When the virus has infected a program, it propagates to infect other programs on the system, as well as other systems that use a shared infected program. " ],
+            "command": ""
+        },
+        {
+            "tag": "computer virus",
+            "patterns": [ "what is computer virus?", "What do you mean by computer virus?", "Define Computer Virus" ],
+            "responses": [ "A computer virus, much like a flu virus, is designed to spread from host to host and has the ability to replicate itself. Similarly, in the same way that flu viruses cannot reproduce without a host cell, computer viruses cannot reproduce and spread without programming such as a file or document." ],
+            "command": ""
+        },
+        {
+            "tag": "Features of a Cybersecurity",
+            "patterns": [ "Important Features of a Cybersecurity?", "Why we need CyberSecurity?", "Whta are features of CyberSecurity?" ],
+            "responses": [ "1.Good Analytics, 2.Coverage of your biggest external threats, 3.A defense against internal threats, 4.Compliance, 5.Manage risk across your entire ecosystem, 6.Threat prevention, detection, and response, 7.Continuous monitoring" ],
+            "command": ""
+        },
+        {
+            "tag": "Benefits of cybersecurity",
+            "patterns": [ "What are the Benefits of cybersecurity?", "uses of cyber security?" ],
+            "responses": [ "1.Business protection against malware, ransomware, phishing and social engineering, 2.Protection for data and networks, 3.Prevention of unauthorized users, 4.Improves recovery time after a breach, 5.Protection for end-users" ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+# IDE
+__pycache__
+.idea
+
+# Files
+test.py
+
+# Datas
+checkpoint
+data.pickle
+model.tflearn.*

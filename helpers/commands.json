@@ -1,0 +1,8 @@
+{
+    "close_program": {
+        "name": "Close",
+        "patterns": ["close", "close yourself"],
+        "responses": ["Okay, goodbye!", "Goodbye!", "Bye!", "See you later!", "Take care of you!"],
+        "eval": "charlie.kill()"
+    }
+}

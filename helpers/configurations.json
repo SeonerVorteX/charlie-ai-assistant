@@ -1,0 +1,10 @@
+{
+    "system": {
+        "prefix": "charlie",
+        "start_messages": ["Hi there, I'm Charlie and I'm ready to do your commands."],
+        "end_messages": ["Okay, see you later.", "Okay, bye bye.", "Okay, have a good day", "Okay, I'm going to sleep."],
+        "sleep_messages": ["I think you don't need me for now, I will be back when you call me again.", "I'm going to sleep, if you need me, just call. I will be here then."],
+        "call_messages": ["I'm here, what can I do for you?", "Okay, I'm here, what can I do for you?", "Okay, I came, what's the matter?", "I'm here, what do you want?", "I'm here, what's the problem?"],
+        "did_not_understand_messages": ["Sorry, I didn't understand."]
+    }
+}
